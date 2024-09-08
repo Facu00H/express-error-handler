@@ -1,6 +1,6 @@
 import { BaseError } from "./BaseError";
 
-export class ServiceUnaivalibleError extends BaseError {
+export class ServiceUnavailableError extends BaseError {
     /**
      * Create a new ServiceUnaivalibleError instance
      * @param {string} message - The error message (e.g., "Service unaivalible")

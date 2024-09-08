@@ -4,7 +4,7 @@ export * from './Conflict';
 export * from './Forbidden';
 export * from './InternalServer';
 export * from './NotFoundError';
-export * from './ServiceUnavailible';
+export * from './ServiceUnavailable';
 export * from './TooManyRequest';
 export * from './Unauthorized';
 export * from './ValidationError';

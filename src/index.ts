@@ -5,12 +5,12 @@ import {
     ForbiddenError,
     InternalServerError,
     NotFoundError,
-    ServiceUnaivalibleError,
+    ServiceUnavailableError,
     TooManyRequestError,
     UnauthorizedError,
     ValidationError
 } from "./errors";
-import { asyncHandler, errorHandler } from "./middlewares";
+import { asyncHandler, errorHandler, wrapAsyncRoutes } from "./middlewares";
 import { ErrorCodes, IError } from "./types"
 
 export {
@@ -22,11 +22,12 @@ export {
     IError,
     InternalServerError,
     NotFoundError,
-    ServiceUnaivalibleError,
+    ServiceUnavailableError,
     TooManyRequestError,
     UnauthorizedError,
     ValidationError,
     asyncHandler,
     errorHandler,
+    wrapAsyncRoutes
 }
 

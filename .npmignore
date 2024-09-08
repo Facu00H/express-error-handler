@@ -1,0 +1,38 @@
+# Ignore TypeScript source files
+/src
+/**/*.ts
+/**/*.tsx
+
+# Ignore TypeScript config
+/tsconfig.json
+/tsconfig.*.json
+
+# Ignore test files
+/test
+/**/*.test.ts
+/**/*.spec.ts
+
+# Ignore node_modules (shouldn't be published)
+node_modules
+
+# Ignore build artifacts (if not needed)
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore version control directories and files
+/.git
+/.gitignore
+/.gitattributes
+
+# Ignore environment and temporary files
+.env
+.env.local
+.env.*.local
+.DS_Store
+*.swp
+
+# Ignore IDE settings
+/.vscode
+/.idea
