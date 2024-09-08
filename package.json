@@ -1,6 +1,6 @@
 {
   "name": "express-err-handler",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "A standardized error handling library for Express applications, including custom errors, async error handling, and centralized error management.",

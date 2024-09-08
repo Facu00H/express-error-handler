@@ -37,7 +37,7 @@ The goal is to simplify and standardize error handling, making your code cleaner
 Install the library using npm:
 
 ```bash
-npm install express-error-handler-lib
+npm i express-err-handler
 ```
 
 ## Usage
